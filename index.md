@@ -1,3 +1,4 @@
+---
 layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
@@ -6,14 +7,16 @@ venue: "University of Amsterdam & Vrije Universiteit Amsterdam"        # brief n
 address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "nl"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-humandate: "14.- 17.11.2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:30 am - 2:00 pm CET"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2023-11-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2023-11-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Max Paulus", "Tijmen Munker", "Ruben Lacroix", "Elisa Rodenburg", "Stephanie van de Sandt",] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Eva Lekkerkerker", "Max Paulus", "Ruben Lacroix", "Stephanie van de Sandt"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+latitude: "52.362740"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "4.911230"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+humandate: "25.- 28.09.2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:30 am - 2:30 pm CEST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+startdate: 2023-09-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2023-09-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Max Paulus", "Tijmen Munker", "Ruben Lacroix", "Elisa Rodenburg", "Stephanie van de Sandt"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Eva Lekkerkerker", "Max Paulus", "Tijmen Munker", "Stephanie van de Sandt"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["e.lekkerkerker@uva.nl", "s.van.de.sandt@vu.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://pad.carpentries.org/2023-11-145-uvavu # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: https://pad.carpentries.org/2023-11-14-uvavu # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -27,6 +30,8 @@ If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
+
+
 
 
 
